@@ -1,0 +1,18 @@
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt update
+sudo apt install fish
+command -s fish
+source .bashrc 
+command -s fish
+fish
+command -s fish
+fish
+chsh -s /usr/bin/fish
+exit
+source .bashrc 
+fish
+
+curl https://get.volta.sh | bash
+fish
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fish
